@@ -3,7 +3,7 @@ const app = express()
 const cors=require("cors")
 const userRoutes=require("./server/Routes/userRoutes")
 const messageRoutes=require("./server/Routes/messagesRoute")
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 4000
 const mongoose=require("mongoose");
 const  socket  = require('socket.io')
 require('dotenv').config()
